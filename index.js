@@ -29,7 +29,7 @@ app.post('/api/postData', async (req, res) => {
 });
 
 // POST request handler to an external API
-app.post('/api/sendToExternalAPI', async (req, res) => {
+app.post('/', async (req, res) => {
     try {
         // Define the external API endpoint
         const apiUrl = 'http://103.10.234.154/api/SendMesssgeAPI'; // Replace with the actual API URL
